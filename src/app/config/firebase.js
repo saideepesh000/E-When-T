@@ -6,12 +6,12 @@ import 'firebase/storage';
 
 const firebaseConfig = {
     apiKey: process.env.REACT_APP_API_KEY,
-    authDomain: "e-when-t.firebaseapp.com",
-    databaseURL: "https://e-when-t-default-rtdb.firebaseio.com/",
-    projectId: "e-when-t",
-    storageBucket: "e-when-t.appspot.com",
-    messagingSenderId: "27872794554",
-    appId: "1:27872794554:web:25872ac70ba7d15a5b2f83"
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    databaseURL: process.env.REACT_APP_DATABASE_URL,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BKT,
+    messagingSenderId: process.env.REACT_APP_MSG_SDR_ID,
+    appId: process.env.REACT_APP_ID
 }
 
 firebase.initializeApp(firebaseConfig);
