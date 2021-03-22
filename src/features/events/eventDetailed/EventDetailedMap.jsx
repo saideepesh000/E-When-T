@@ -1,10 +1,10 @@
 import React from 'react';
-import { Segment, Icon } from 'semantic-ui-react';
+import { Segment } from 'semantic-ui-react';
 // import GoogleMapReact from 'google-map-react';
 
-function Marker() {
-    return (<Icon name='marker' size='big' color='red' />)
-}
+// function Marker() {
+//     return (<Icon name='marker' size='big' color='red' />)
+// }
 
 export default function EventDetailedMap({latLng}) {
     // const zoom = 14;

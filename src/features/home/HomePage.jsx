@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment, Container, Header, Image, Button, Icon } from 'semantic-ui-react';
+import { Segment, Container, Header, Button, Icon } from 'semantic-ui-react';
 
 export default function HomePage({history}) {
     return (

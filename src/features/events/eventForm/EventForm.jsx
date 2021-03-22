@@ -1,4 +1,3 @@
-/* global google */
 import React, { useState } from 'react';
 import { Segment, Header, Button, Confirm } from 'semantic-ui-react';
 import { Link, Redirect } from 'react-router-dom';
@@ -11,7 +10,7 @@ import MyTextArea from '../../../app/common/form/MyTextArea';
 import MySelectInput from '../../../app/common/form/MySelectInput';
 import { categoryData } from '../../../app/api/categoryOptions';
 import MyDateInput from '../../../app/common/form/MyDateInput';
-import MyPlaceInput from '../../../app/common/form/MyPlaceInput';
+// import MyPlaceInput from '../../../app/common/form/MyPlaceInput';
 import {
   listenToEventFromFirestore,
   updateEventInFirestore,
