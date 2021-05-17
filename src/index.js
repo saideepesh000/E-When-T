@@ -18,9 +18,9 @@ const rootEl = document.getElementById('root');
 function render() {
   ReactDOM.render(
     <Provider store={store}>
-      <ConnectedRouter history={history}
+      <ConnectedRouter history={history}>
         <ScrollToTop />
-        <App />
+        <App /
       </ConnectedRouter>
     </Provider>,
     rootEl
