@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Segment, Container, Header, Button, Icon } from 'semantic-ui-react';
 
 export default function HomePage({history}) {
+    const [name, setName] = useState("name")
     function fun(){
     throw new Error("eve error")
     }
-    fun()
+    if(name === "name")
+        fun()
     return (
         <Segment inverted textAlign='center' vertical className='masthead'>
             <Container>
