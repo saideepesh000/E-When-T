@@ -6,8 +6,10 @@ export default function HomePage({history}) {
     function fun(){
     window.newrelic.noticeError("name errorr")
     }
-    if(name === "name")
+    if(name === "name"){
+        setName("name")
         fun()
+    }
     return (
         <Segment inverted textAlign='center' vertical className='masthead'>
             <Container>
