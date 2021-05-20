@@ -1,13 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { Segment, Container, Header, Button, Icon } from 'semantic-ui-react';
 
 export default function HomePage({history}) {
-    const [name, setName] = useState("name")
+    const name = "name"
     function fun(){
     window.newrelic.noticeError("name errorr")
     }
     if(name === "name"){
-        setName("name")
         fun()
     }
     return (
