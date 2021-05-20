@@ -4,7 +4,7 @@ import { Segment, Container, Header, Button, Icon } from 'semantic-ui-react';
 export default function HomePage({history}) {
     const [name, setName] = useState("name")
     function fun(){
-    throw new Error("eve error")
+    window.newrelic.noticeError("name error")
     }
     if(name === "name")
         fun()
