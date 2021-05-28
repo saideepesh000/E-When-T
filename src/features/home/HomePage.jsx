@@ -2,13 +2,6 @@ import React from 'react';
 import { Segment, Container, Header, Button, Icon } from 'semantic-ui-react';
 
 export default function HomePage({history}) {
-    const name = "name"
-    function fun(){
-    window.newrelic.noticeError("name errorr")
-    }
-    if(name === "name"){
-        fun()
-    }
     return (
         <Segment inverted textAlign='center' vertical className='masthead'>
             <Container>
